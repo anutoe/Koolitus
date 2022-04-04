@@ -1,0 +1,23 @@
+.konteiner{
+    display: flex;
+    flex-wrap: wrap;
+}
+.blokk{
+    margin: 10px;
+    width: 30%;
+}
+img {
+    width: 100%;
+} 
+@media screen and (max-width: 1007px) {
+    .blokk {
+        width: 50%;
+
+    }
+  @media screen and (max-width: 640px) {
+    .blokk {
+        width: 50%;
+    
+    }  
+    
+}

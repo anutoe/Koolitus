@@ -1,0 +1,37 @@
+    html{}
+    header{
+        background-color:  ;
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+    }
+       
+   nav{
+       display: flex;
+       background-color: coral;
+       justify-content: center;
+   }
+   nav>ul {
+       display: flex;
+       list-style-type: none;
+   }
+   nav>ul>li{
+       margin-right: 10px;
+       color:antiquewhite
+   }
+   main{
+       display:flex;
+       background-color: azure;
+   }
+   main section {
+       width: 60%;
+
+   }
+   main aside{
+       width: 40%;
+
+   }
+   main > aside> a>img{
+       width:300px;
+   }
+
