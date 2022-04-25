@@ -1,0 +1,81 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  overflow-x: hidden;
+  background-image: url(hills.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 37px 72px 140px;
+  margin-bottom: 300px;
+}
+.pais-sektsioon {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 37px 72px 140px;
+  margin-bottom: 300px;
+}
+.pais {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pais>nav {
+  display: flex;
+  align-items: center;
+}
+
+
+.pais>nav>a {
+  margin-left: 50px;
+  color: #000;
+  letter-spacing: 2.67px;
+  font-weight: 600;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 16.67px;
+}
+
+.pais>nav>a:hover {
+  color: #444;
+}
+
+.pais-vasak {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.logo-pealkiri {
+  font-size: 33px;
+  font-weight: 800;
+  color: #0B0B0B;
+  width: 126px;
+  word-wrap: normal;
+  line-height: 1;
+  text-transform: uppercase;
+
+}
+h1{
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  color: brown;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Montserrat', sans-serif;
+  width: 40%;
+  margin:10px auto;
+  width: 400px;
+  padding: 20px 12px 10px 20px;
+  color: brown;
+
+}
+
+input{
+  color: brown;
+  font-weight: bold;
+}
